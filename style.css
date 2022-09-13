@@ -77,15 +77,15 @@ h3 {
     text-align:center;
 }
 
+div.info {
+    background-color:white;
+}
+
 div.containerparent {
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     align-items:center;
-}
-
-div.container {
-    display:inline-block;
 }
 
 img.icon {
@@ -96,4 +96,35 @@ img.icon {
 p.cnt {
     color:#1F2937;
     flex-wrap:wrap;
+}
+
+div.quote {
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-size:36px;
+    font-weight:lighter;
+}
+
+p.author {
+    text-align: end;
+    color:#1F2937;
+    font-size:36px;
+}
+
+div.action {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+div.blueaction, div.actionbutton {
+    background-color:#3882F6;
+}
+
+footer {
+    background-color:#1F2937;
+    color:#F9FAF8;
+    text-align:center;
+    padding:25px;
 }
