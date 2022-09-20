@@ -3,7 +3,7 @@
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
-    background-color: #1F2937;
+    background-color: #663300;
 }
 
 h1.logo {
@@ -30,7 +30,7 @@ div.awesome {
     flex-direction:row;
     justify-content:center;
     align-items:center;
-    background-color:#1F2937;
+    background-color:#663300;
     padding: 50px;
 }
 
@@ -52,7 +52,7 @@ p {
 }
 
 button {
-    background-color:#3882F6;
+    background-color:#ffa64d;
     color:white;
     font-weight:bold;
     margin-top:-50px;
@@ -71,7 +71,7 @@ img {
 }
 
 h3 {
-    color:#1F2937;
+    color:#663300;
     font-size:36px;
     font-weight:bolder;
     text-align:center;
@@ -84,30 +84,42 @@ div.info {
 div.containerparent {
     display:flex;
     flex-direction:row;
+    align-content:space-around;
+}
+
+div.container {
+    display:block;
+    flex-direction:row;
     justify-content:space-evenly;
-    align-items:center;
+    align-items:flex-start;
+    align-content:space-around;
 }
 
 img.icon {
+    display:block;
+    align-self:flex-start;
     height:200px;
     width:200px;
 }
 
 p.cnt {
-    color:#1F2937;
+    display:block;
     flex-wrap:wrap;
+    border:#ffa64d;
+    border-style:solid;
+    color:#663300;
 }
 
 div.quote {
-    background-color:#E5E7EB;
-    color:#1F2937;
+    background-color:#dfbf9f;
+    color:#663300;
     font-size:36px;
     font-weight:lighter;
 }
 
 p.author {
     text-align: end;
-    color:#1F2937;
+    color:#663300;
     font-size:36px;
 }
 
@@ -119,11 +131,11 @@ div.action {
 }
 
 div.blueaction, div.actionbutton {
-    background-color:#3882F6;
+    background-color:#ffa64d;
 }
 
 footer {
-    background-color:#1F2937;
+    background-color:#663300;
     color:#F9FAF8;
     text-align:center;
     padding:25px;
