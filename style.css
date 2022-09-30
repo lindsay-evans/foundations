@@ -84,15 +84,15 @@ div.info {
 div.containerparent {
     display:flex;
     flex-direction:row;
-    align-content:space-around;
+    justify-content:space-around;
+    align-content:space-between;
 }
 
 div.container {
     display:block;
-    flex-direction:row;
-    justify-content:space-evenly;
-    align-items:flex-start;
-    align-content:space-around;
+    flex-direction:column;
+    align-items:center;
+    flex: 1 1 0px;
 }
 
 img.icon {
@@ -115,6 +115,7 @@ div.quote {
     color:#663300;
     font-size:36px;
     font-weight:lighter;
+    padding:50px;
 }
 
 p.author {
@@ -124,14 +125,26 @@ p.author {
 }
 
 div.action {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
+    display:grid;
+    margin:50px;
+    padding:50px;
+}
+
+div.blueaction {
+    margin:auto;
+}
+
+h4 {
+    margin:auto;
+}
+
+p.subaction {
+    margin:auto;
 }
 
 div.blueaction, div.actionbutton {
     background-color:#ffa64d;
+    margin:auto;
 }
 
 footer {
