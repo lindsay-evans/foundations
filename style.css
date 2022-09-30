@@ -1,3 +1,7 @@
+body {
+    margin:0px;
+}
+
 .header {
     display:flex;
     flex-direction:row;
@@ -47,7 +51,6 @@ h2 {
 p {
     color:#E5E7EB;
     font-size:18px;
-    margin-top: -40px;
     flex-wrap:wrap;
 }
 
@@ -67,7 +70,6 @@ button {
 img {
     width:300px;
     height:auto;
-    padding-left:25px;
 }
 
 h3 {
@@ -89,24 +91,21 @@ div.containerparent {
 }
 
 div.container {
-    display:block;
+    display:flex;
     flex-direction:column;
     align-items:center;
     flex: 1 1 0px;
 }
 
 img.icon {
-    display:block;
-    align-self:flex-start;
     height:200px;
     width:200px;
 }
 
 p.cnt {
-    display:block;
+    display:flex;
     flex-wrap:wrap;
-    border:#ffa64d;
-    border-style:solid;
+    text-align:center;
     color:#663300;
 }
 
@@ -125,26 +124,32 @@ p.author {
 }
 
 div.action {
-    display:grid;
-    margin:50px;
-    padding:50px;
+    width:70%;
+    height:300px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
 }
 
 div.blueaction {
-    margin:auto;
+    display:flex;
+    flex-direction:column;
+    margin:50px;
+    border-radius:5%;
 }
 
-h4 {
-    margin:auto;
-}
-
-p.subaction {
-    margin:auto;
+button.actionbutton {
+    border-color:white;
+    border-width:1px;
+    border-style:solid;
+    margin:50px;
+    display:flex;
 }
 
 div.blueaction, div.actionbutton {
     background-color:#ffa64d;
-    margin:auto;
 }
 
 footer {
